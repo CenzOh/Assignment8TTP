@@ -1,16 +1,69 @@
+
 .App {
+  /* How the whole site is sorted */
   text-align: center;
+  justify-content: center;
+ 
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+  /* .App-logo {
+    height: 40vmin;
+    pointer-events: none;
+  } */
+  
+  /* @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  } */
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    
+  h1 { 
+    /* Header with the text */
+    /* background-color: orange; */
+    background-image: url("https://i.pinimg.com/originals/6c/d3/35/6cd33564560d5322a497facd8614430c.jpg");
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: rgb(0, 255, 34);
+    font-family:'Lucida Sans';
+  
   }
+
+  * {
+    /* The "white space of the page */
+    
+    background-color: whitesmoke;
+    /* background-position: 100%; */
+    /* Giving this a hacker theme */
+    /* background-color: rgb(37, 37, 37); */
+  }
+
+.table, .cell {
+  border: 0px solid black;
+}
+
+.cell {
+  width: 50px;
+  height: 25px;
+}
+
+.row {
+  width: 100px;
+  height: 50px;
+} 
+
+.theTable {
+  /* table class in app.js  of type table*/
+  margin: 0 auto;
+  align-self: center;
+  /* margin-left: auto;
+  margin-right: auto; */
+}
+
+
+label {
+  /* for the select color font */
+  font-family:'Lucida Sans';
 }
 
 .App-header {
@@ -28,11 +81,27 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
+/* @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
   to {
     transform: rotate(360deg);
   }
+} */
+
+table {
+  /* inside the table */
+  display: inline-block;
+  background-color: black;
+}
+
+#removeRow, #removeColumn {
+  background-color: black;
+  color: limegreen
+}
+
+#addRow, #addColumn {
+  background-color: black;
+  color: rgb(0, 255, 34)
 }
